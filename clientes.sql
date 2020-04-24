@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 22-04-2020 a las 17:04:27
+-- Tiempo de generación: 24-04-2020 a las 23:20:02
 -- Versión del servidor: 10.4.11-MariaDB
 -- Versión de PHP: 7.4.4
 
@@ -40,11 +40,14 @@ CREATE TABLE `clientesjur` (
 
 INSERT INTO `clientesjur` (`cedula`, `nombres`, `celular`, `correo`) VALUES
 ('11111111111', '', '', ''),
+('1212', '1212', '1212', '1212'),
 ('222222', '1111111', '111111', 'DDDDDDDDDDDDD'),
 ('30776464', 'estelly espinosa', '3008932453', 'sthly@hotmail.com'),
 ('33333333', '333333', '333333', '333333333333'),
 ('444', '4444444444', '44444444444', '444444444444'),
-('9288264', 'carlos jose ayola ca', '3004956562', '11111111');
+('777', '777777', '77777', '77777'),
+('9288264', 'carlos jose ayola ca', '3004956562', '11111111'),
+('9288265', '', '', '');
 
 --
 -- Índices para tablas volcadas
